@@ -21,19 +21,14 @@
     font-family: 'Open Sans', sans-serif;
  }
 
-.navbar-default .navbar-brand {
-  color: white;
-}
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
-}
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.75;
+  //scss
+  &:hover{
+    color: white;
+    opacity: 0.75;  
+  }
 }
 
 .navbar, .home-callout{
