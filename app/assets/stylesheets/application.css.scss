@@ -38,6 +38,17 @@
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
 .navbar, .home-callout{
     //Gradient provided by @_ighosh at uiGradients.com
     background: #00c6ff;  /* fallback for old browsers */
