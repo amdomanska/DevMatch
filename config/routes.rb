@@ -5,6 +5,6 @@ Rails.application.routes.draw do
     resources :contacts, only: :create
     get 'contact-us', to: 'contacts#new'
     resources :users do
-        resources :profiles
+        resource :profile
     end
 end
