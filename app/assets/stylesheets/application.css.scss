@@ -19,9 +19,6 @@
  @import "font-awesome-sprockets";
  @import "font-awesome";
  
- body {
-   position: relative;
- }
  
  h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
@@ -71,16 +68,8 @@
     border: none;
 }
 
-.flash-container {
-  position: absolute;
-  width: 100%;
-}
-
-.alert-notice, .alert-alert {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.3);
-  margin-top: -14px;
-  border-color: rgba(255, 255, 255, 0.27);
+.alert-notice{
+  display: none;
 }
 
 .home-signup-links {
