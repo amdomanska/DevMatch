@@ -23,5 +23,3 @@
 # Ignore application configuration
 /config/application.yml
 
-#Ignore user avatars
-/public/system/profiles/avatars
